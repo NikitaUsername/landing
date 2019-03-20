@@ -1,0 +1,23 @@
+body{
+
+}
+.header{
+background: black;
+color: white;
+}
+
+ul, li{
+	display: block;
+	margin:0;
+	padding: 0;
+}
+
+.menu__item{
+	margin: 25px 30px;
+}
+
+.menu__item a{
+ font-size: 22px;
+ font-weight: 700;
+ color: white;
+}
