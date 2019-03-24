@@ -1,7 +1,10 @@
 body{
 
 }
-
+ .container{
+ 	margin-left: 120px;
+ 		
+ }
 
 ul, li{
 	display: block;
@@ -9,10 +12,12 @@ ul, li{
 	padding: 0;
 }
 
-h1,h3,h4{
+h1,h2,h3,h4{
 	font-weight: 700;
 	color: black;
 }
+
+
 
 .header{
 background: black;
@@ -20,15 +25,15 @@ color: white;
 }
 
 .logo{
-	margin-top:5px;
+	margin-top:14px;
 }
 .menu__item{
-	margin: 25px 30px;
+	margin: 20px 30px;
 }
 
 .menu__item a{
- font-size: 22px;
- font-weight: 700;
+ font-size: 18px;
+ font-weight: 400;
  color: white;
 }
 
@@ -37,6 +42,49 @@ color: white;
 
 }
 
-.offer__title{
+.title{
+margin-top: 100px;
+margin-bottom: 100px;
 
+}
+
+.title2{
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+
+
+.block__title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+
+}
+
+.info{
+	background: #f6f8fa;
+	margin-top: 30px;
+}
+
+.kar{
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+.infoblock{
+
+	padding-left: 70px;
+
+}
+.infoblock__title{
+	margin-top: 100px;
+	padding-top: 70px;
+	color: black;
+}
+.infoblock__area{
+	resize: none;
+	border-radius: 5px;
+}
+.infoblock__button{
+	border-radius: 8px;
 }
