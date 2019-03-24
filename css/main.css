@@ -2,8 +2,9 @@ body{
 
 }
  .container{
- 	margin-left: 120px;
- 		
+ 	padding-left: 50px; 
+ 	padding-top: 30px;
+
  }
 
 ul, li{
@@ -20,6 +21,7 @@ h1,h2,h3,h4{
 
 
 .header{
+width: 100%;
 background: black;
 color: white;
 }
@@ -37,10 +39,11 @@ color: white;
  color: white;
 }
 
-
-.offer{
-
+.pic{
+	width: auto;
 }
+
+
 
 .title{
 margin-top: 100px;
@@ -48,6 +51,9 @@ margin-bottom: 100px;
 
 }
 
+.three{
+	margin-top: 40px;
+}
 .title2{
 	margin-top: 100px;
 	margin-bottom: 70px;
@@ -73,7 +79,7 @@ margin-bottom: 100px;
 }
 .infoblock{
 
-	padding-left: 70px;
+
 
 }
 .infoblock__title{
@@ -84,7 +90,81 @@ margin-bottom: 100px;
 .infoblock__area{
 	resize: none;
 	border-radius: 5px;
+	outline: none;
 }
 .infoblock__button{
 	border-radius: 8px;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+	body{
+		text-align: center;
+	}
+	.container{
+		padding-left: 20px;
+	}
+.logo{
+display: block;
+margin: 0 auto;
+}
+.list{
+	margin-left: 60px; 
+}
+.title {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.offer__block{
+	margin-bottom: 30px;
+}
+.pic{
+height: 50%;
+margin: 30px;
+}
+.features{
+	height: 630px;
+}
+
+.block__pic{
+
+	width: 30%;
+}
+.block__inside{
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.infoblock__title{
+	padding-top: 0;
+}
+
+.infoblock__area{
+display: block;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+.kar{
+	width: 80%;
+	margin-left: 60px;
+}
+}
+
+@media screen and (max-width: 576px) {
+.offer{
+	display: flex;
+	flex-wrap: wrap;
+}
+.infoblock__area{
+	width: auto;
+}
+
+.three{
+	height: 1000;
+}
+
 }
